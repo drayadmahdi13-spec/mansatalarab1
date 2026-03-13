@@ -46,3 +46,29 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+/* تصميم متجاوب للموبايل */
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    button {
+        width: 80%;
+        font-size: 18px;
+    }
+}
